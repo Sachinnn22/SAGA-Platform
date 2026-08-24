@@ -1,0 +1,9 @@
+[submodule "config-server"]
+	path = config-server
+	url = https://github.com/Sachinnn22/SAGA-config-server
+[submodule "service-registry"]
+	path = service-registry
+	url = https://github.com/Sachinnn22/SAGA-service-registry
+[submodule "api-gateway"]
+	path = api-gateway
+	url = https://github.com/Sachinnn22/SAGA-api-gateway
