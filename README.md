@@ -42,9 +42,9 @@ The platform consists of three core infrastructure components that must be manag
 * **Port:** `8084`
 * **Details:** Uses Spring Cloud Gateway. It acts as the single gateway proxy routing external client requests to internal microservices registered on Eureka.
 * **Routing Table:**
-  * `/api/v1/users/**` $\rightarrow$ Member Service
-  * `/api/v1/salon/**` $\rightarrow$ Fitness Service
-  * `/api/v1/appoinments/**` $\rightarrow$ Workout Service
+  * `/api/v1/users/**` $\rightarrow$ User Service
+  * `/api/v1/salon/**` $\rightarrow$ Salon Service
+  * `/api/v1/appoinments/**` $\rightarrow$ Appoinment Service
 * **Startup Order:** **Started last**, after all domain microservices are running.
 
 ---
